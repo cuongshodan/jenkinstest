@@ -24,6 +24,7 @@ pipeline {
                     echo "With docker"
                     ls -la
                     touch container-yes.txt
+                    echo "Hello from Github"
                 '''
             }
         }
